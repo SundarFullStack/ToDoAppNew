@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Rectanlge from './components/Rectangle/Rectangle';
-import Circle from './components/Circle/Circle';
 import Pricecard from './components/Pricecard/Pricecard';
+import ReactForm from './components/ReactForm/ReactForm';
 
 function App() {
   return (
     <div className="App">
   
+{/* 
+      <Pricecard/> */}
 
-        <Pricecard/>
+      <ReactForm/>
  
      
     </div>

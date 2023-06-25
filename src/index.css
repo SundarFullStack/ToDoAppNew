@@ -29,7 +29,7 @@ code {
   text-align: center;
 } */
 
-
+/* 
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -78,10 +78,10 @@ section.pricing {
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
-}
+} */
 
 /* Hover Effects on Card */
-
+/* 
 @media (min-width: 992px) {
   .pricing .card:hover {
     margin-top: -.25rem;
@@ -92,10 +92,10 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
-}
+} */
 
 /* Application Form */
-/* 
+
 body{
 
   background-color: #f1e7bafc;
@@ -129,11 +129,18 @@ h5{
   
 }
 
-.card{
+.card1{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   background-color: #f3bdbd8f;
   overflow-wrap: break-word;
   margin-bottom: 30px;
+}
+
+.card2{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  background-color: #f3bdbd8f;
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
 }
 
 input{
@@ -169,4 +176,4 @@ button{
     margin:4px;
     margin-top: 25px;
     margin-bottom:20px;
-} */
+}

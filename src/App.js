@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Pricecard from './components/Pricecard/Pricecard';
+import ReactForm from './components/ReactForm/ReactForm';
 
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
     <div className="App">
   
 
-      <Pricecard/>
+      <ReactForm/>
+      {/* <Pricecard/> */}
 
-      {/* <ReactForm/> */}
  
      
     </div>

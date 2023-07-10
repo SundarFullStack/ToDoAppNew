@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ToDo Styles */
+
+body{
+  background-color: #00800008;
+}
+
+.header{
+  color: rgb(30 195 132);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#input{
+  width:350px;
+  border-color: rgb(30 195 132);
+}
+
+#addToDo{
+  background-color: rgb(30 195 132);
+  border-color: rgb(30 195 132);
+  color:white;
+  border-radius: 5px;
+  font-weight: 500;
+  width:140px;
+}
+#clear{
+
+  background-color: rgb(211 103 26);
+  border-color: rgb(211 103 26);
+  color:white;
+  border-radius: 5px;
+  font-weight: 500;
+  width:140px;
+
+
+}
+.subHeader{
+  font-weight:500;
+}
+
+#statusFilter{
+  margin-left: 190px;
+}
+
+#card{
+  height:215px;
+  width:300px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:rgb(138 235 198 / 75%) ;
+  border: none;
+
+}
+
+.twoButtons{
+ 
+  float: right;
+  margin-top: -15px;
+  margin-right: 19px;
+}
+
+.edit_btn{
+  margin: 7px;
+    background-color: rgb(30 195 132);
+}
+.delete_btn{
+  margin: 7px;
+    background-color: rgb(211 103 26);
+}
+#dropdownMenuButton{
+  margin-left:5px;
+}
+
